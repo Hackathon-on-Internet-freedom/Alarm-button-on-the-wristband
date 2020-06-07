@@ -10,4 +10,12 @@
     <string name="menu_home">Home</string>
     <string name="menu_devices">Devices</string>
     <string name="menu_reactions">Reactions</string>
+
+    <string name="error_bluetooth_not_supported">Bluetooth not supported</string>
+    <string name="ble_not_supported">Bluetooth LE not supported</string>
+
+    <string name="need_permissions_dialog">Warning</string>
+    <string name="need_permissions_dialog_text">You should grant next permissions for normal work</string>
+    <string name="need_permissions_denied">Some Permission is Denied. I can\'t work</string>
+
 </resources>

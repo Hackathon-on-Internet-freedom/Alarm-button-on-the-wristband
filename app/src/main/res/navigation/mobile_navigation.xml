@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/nav_devices"
-        android:name="com.alarmer.braceletbutton.ui.gallery.DevicesFragment"
+        android:name="com.alarmer.braceletbutton.ui.devices.DevicesFragment"
         android:label="@string/menu_devices"
         tools:layout="@layout/fragment_devices" />
 
     <fragment
         android:id="@+id/nav_reactions"
-        android:name="com.alarmer.braceletbutton.ui.slideshow.ReactionsFragment"
+        android:name="com.alarmer.braceletbutton.ui.reactions.ReactionsFragment"
         android:label="@string/menu_reactions"
         tools:layout="@layout/fragment_reactions" />
 </navigation>

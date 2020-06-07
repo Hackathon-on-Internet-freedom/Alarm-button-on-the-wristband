@@ -1,4 +1,4 @@
-package com.alarmer.braceletbutton.ui.gallery;
+package com.alarmer.braceletbutton.ui.reactions;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.alarmer.braceletbutton.R;
 
-public class DevicesFragment extends Fragment {
+public class ReactionsFragment extends Fragment {
 
-    private DevicesViewModel devicesViewModel;
+    private ReactionsViewModel reactionsViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        devicesViewModel =
-                ViewModelProviders.of(this).get(DevicesViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_devices, container, false);
-        final TextView textView = root.findViewById(R.id.text_devices);
-        devicesViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        reactionsViewModel =
+                ViewModelProviders.of(this).get(ReactionsViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_reactions, container, false);
+        final TextView textView = root.findViewById(R.id.text_reactions);
+        reactionsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

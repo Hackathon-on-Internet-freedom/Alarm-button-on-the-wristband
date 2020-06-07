@@ -1,4 +1,4 @@
-package com.alarmer.braceletbutton.ui.slideshow;
+package com.alarmer.braceletbutton.ui.reactions;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

@@ -1,4 +1,4 @@
-package com.alarmer.braceletbutton.ui.gallery;
+package com.alarmer.braceletbutton.ui.devices;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -13,7 +13,5 @@ public class DevicesViewModel extends ViewModel {
         mText.setValue("This is gallery fragment");
     }
 
-    public LiveData<String> getText() {
-        return mText;
-    }
+    public LiveData<String> getText() { return mText; }
 }
