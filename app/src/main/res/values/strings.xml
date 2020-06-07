@@ -18,4 +18,6 @@
     <string name="need_permissions_dialog_text">You should grant next permissions for normal work</string>
     <string name="need_permissions_denied">Some Permission is Denied. I can\'t work</string>
 
+    <string name="correct">Правильно</string>
+
 </resources>

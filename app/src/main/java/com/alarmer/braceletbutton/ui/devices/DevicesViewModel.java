@@ -14,4 +14,6 @@ public class DevicesViewModel extends ViewModel {
     }
 
     public LiveData<String> getText() { return mText; }
+
+    public void setText(String Text) { mText.setValue(Text); }
 }
